@@ -2,4 +2,18 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.nav__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link{
+    
+    text-decoration: none;
+    list-style: none;
 }
