@@ -2,7 +2,7 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    
+    background-color: aqua;
 }
 
 .nav__list{
@@ -10,10 +10,15 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: gray;
+    align-items: center;
 }
 
 .nav__link{
     
     text-decoration: none;
     list-style: none;
+    padding: 4rem;
+   
 }
+
