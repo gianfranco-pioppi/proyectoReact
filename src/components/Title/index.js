@@ -2,7 +2,10 @@ import React from "react";
 
 export const Title = ({greeting}) => {
     return (
-        <h1>{greeting}</h1>
+        <div className="text-center">
+            <h1>{greeting}</h1>
+        </div>
+        
     );
 }
 

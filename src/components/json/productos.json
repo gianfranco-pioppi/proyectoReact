@@ -1,0 +1,14 @@
+[
+    
+    {"id":1, "nombre":"Remera Blanca G4 Mundial Qatar ESCUDO", "imagen": "https://static.dafiti.com.ar/p/g4-6166-708479-1-zoom.jpg", "precio":3700, "stock":10, "categoria": "remeras"},
+    {"id":2, "nombre":"Remera Azul G4 Mundial Qatar BANDERA", "imagen": "https://static.dafiti.com.ar/p/g4-6163-808479-1-zoom.jpg", "precio":3900, "stock":9, "categoria": "remeras"},
+    {"id":3, "nombre":"Remera Verde Fraction Net Beach Day", "imagen": "https://static.dafiti.com.ar/p/fraction-net-9688-909499-1-zoom.jpg", "precio":3800, "stock":5, "categoria": "remeras"},
+    
+    {"id":4, "nombre":"Buzo Negro Fraction Net Harbor", "imagen": "https://static.dafiti.com.ar/p/fraction-net-8914-029499-1-zoom.jpg", "precio":6500, "stock":8, "categoria": "buzos"},
+    {"id":5, "nombre":"Buzo Negro Rever Pass Escote O Rustic", "imagen": "https://static.dafiti.com.ar/p/rever-pass-9758-677599-1-zoom.jpg", "precio":1300, "stock":6, "categoria": "buzos"},
+    {"id":6, "nombre":"Buzo Camel G4 Block", "imagen": "https://static.dafiti.com.ar/p/g4-2653-754349-1-zoom.jpg", "precio":3900, "stock":10, "categoria": "buzos"},
+    
+    {"id":7, "nombre":"Jogger Azul Chelsea Market Forum", "imagen": "https://static.dafiti.com.ar/p/chelsea-market-9908-787789-1-zoom.jpg", "precio":7800, "stock":2, "categoria": "pantalones"},
+    {"id":8, "nombre":"Pantalón Gris Vinson Berlin", "imagen": "https://static.dafiti.com.ar/p/vinson-0627-756413-1-zoom.jpg", "precio":8300, "stock":3, "categoria": "pantalones"},
+    {"id":9, "nombre":"Pantalon Gris El Genoves Chino", "imagen": "https://static.dafiti.com.ar/p/el-genoves-5932-756025-1-zoom.jpg", "precio":9500, "stock":7, "categoria": "pantalones"}
+]
