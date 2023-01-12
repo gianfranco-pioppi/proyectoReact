@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({item}) => {
+
+    const [itemStock, setItemStock] = useState(0);
+
+    const onAdd = (quantity) => {
+        setItemStock(itemStock - quantity);
+    }
+
+    useEffect(() => {
+        setItemStock(item.stock);
+    }, [item]);
+
     return (
         <div className="row">
             <div className="col-md-4">
@@ -11,7 +22,7 @@ const ItemDetail = ({item}) => {
                 <h1>{item.nombre}</h1>
                 <h2>Precio: ${item.precio}</h2>
                 <h5>Disponible: {item.stock}</h5>
-                <ItemCount stock={item.stock} />
+                <ItemCount stock={item.stock} onAdd={onAdd} />
             </div>
         </div>
     )
