@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
 
-export const CartWidget = () => {
+ const CartWidget = () => {
+    const {cartTotal} = useContext(CartContext);
+
     return (
-        <i className="bi bi-cart2"></i>
-    );
+        <Link to={"/cart"} className="btn btn-warning position-relative justify-content-end">
+            <img src="/images/cart2.svg" alt="Carrito" width="32" />
+            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{cartTotal()}</span>
+        
+        </Link>
+        
+    )
 }
 
 export default CartWidget;

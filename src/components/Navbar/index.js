@@ -18,7 +18,7 @@ export const NavBar = () => {
                             <NavLink className="nav-link active" aria-current="page" to={"./category/remeras"}>Remeras</NavLink>
                             <NavLink className="nav-link active" to={"./category/buzos"}>Buzos</NavLink>
                             <NavLink className="nav-link active" to={"./category/pantalones"}>Pantalones</NavLink>
-                            <NavLink className="nav-link active" to={"./category/cartwidget"}><CartWidget /> 3</NavLink>
+                            <NavLink className="nav-link active" to={"./category/cartwidget"}><CartWidget /></NavLink>
                         </div>
                     </div>
                 </div>

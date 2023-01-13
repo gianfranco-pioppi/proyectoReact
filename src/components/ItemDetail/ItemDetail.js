@@ -3,11 +3,12 @@ import ItemCount from "../ItemCount/ItemCount";
 import { CartContext } from "../context/CartContext";
 
 const ItemDetail = ({item}) => {
-    
+    const {addItem} = useContext(CartContext);
     const [itemStock, setItemStock] = useState(0);
 
     const onAdd = (quantity) => {
         setItemStock(itemStock - quantity);
+        addItem(item, quantity);
     }
 
     useEffect(() => {
