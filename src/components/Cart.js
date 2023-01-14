@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "./context/CartContext";
+import Checkout from "../Checkout";
 
 const Cart = () => {
     const {cart, cartTotal, clear, removeItem, sumTotal} = useContext(CartContext);
@@ -58,7 +59,7 @@ const Cart = () => {
                                     <td colSpan={2}>&nbsp;</td>
                                     <td><b>Total a Pagar</b></td>
                                     <td>${sumTotal()}</td>
-                                    <td className="text-end"><button className="btn btn-warning"><b>Finalizar Compra</b></button></td>
+                                    <td className="text-end"><Link to={"../checkout"} className="btn btn-warning"><b>Finalizar Compra</b></Link></td>
                                 </tr>
                         </tbody>
                     </table>
